@@ -56,14 +56,30 @@
     add_action( 'init', 'create_post_type' );
         function create_post_type() {
             register_post_type("Home_Slider",
-            array(
-                'labels' => array('name' => __("Home Slider"), 'singular_name' => __("Home Slider")),
-                'public' => true,
-                'has_archive' => true,
-                'supports' => array('title', 'editor', 'thumbnail')
-            )
-          );
-        }
+                array(
+                    'labels' => array('name' => __("Home Slider"), 'singular_name' => __("Home Slider")),
+                    'public' => true,
+                    'has_archive' => true,
+                    'supports' => array('title', 'editor', 'thumbnail')
+                )
+            );
+            register_post_type("Members",
+                array(
+                    'labels' => array('name' => __("Members"), 'singular_name' => __("Member")),
+                    'public' => true,
+                    'has_archive' => true,
+                    'supports' => array('title', 'editor', 'thumbnail')
+                )
+            );
+            register_post_type("Features",
+                array(
+                    'labels' => array('name' => __("Features"), 'singular_name' => __("Feature")),
+                    'public' => true,
+                    'has_archive' => true,
+                    'supports' => array('title', 'editor', 'thumbnail')
+                )
+            );
+        } 
     add_theme_support( 'post-thumbnails' );
 
     // Register custom navigation walker

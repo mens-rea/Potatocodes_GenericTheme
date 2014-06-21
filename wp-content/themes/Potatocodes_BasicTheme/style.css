@@ -76,6 +76,9 @@ body {
 .nextdowndiv{
    padding-top: 50px;
 }
+.paddivdown{
+   padding-bottom: 50px;
+}
 
 /* OTHER PAGES */
 .page-title{
