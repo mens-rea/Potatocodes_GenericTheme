@@ -1,0 +1,125 @@
+/*
+Theme Name: Potatocodes Generic Theme
+Theme URI: http://www.potatocodes.com
+Description: A Custom Theme created by Potatocodes
+Author: Potatocodes
+Author URI: http://www.potatocodes.com
+Version: 1.0
+
+This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
+*/
+
+html,
+body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
+#container {
+   min-height: 100%;
+   position: relative;
+}
+#header {
+   background:#ff0;
+   padding: 10px;
+   overflow: hidden;
+}
+#body {
+   	padding: 0px;
+   	padding-bottom: 200px;   /* Height of the footer */
+      border: 1px solid red;
+      overflow: hidden;
+}
+#footer {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   left:0;
+   width: 100%;
+   height: 150px;   /* Height of the footer */
+   background: #6cf;
+   overflow: hidden;
+}
+
+
+#content{
+	min-height: 400px; 
+}
+.intro-columns{
+	min-height: 300px;
+	height: 100%;
+	position: relative;
+}
+
+/* Defaults */
+
+.conquerdiv{
+   overflow: hidden;
+}
+.nomargin{
+   margin: 0px;
+}
+.odiv{
+   border: 1px solid red;
+   min-height: 200px;
+}
+.odiv2{
+   border: 1px solid blue;
+   min-height: 200px;
+}
+.divcenter{
+   margin: 0 auto;
+}
+.unfulldiv{
+   width: 75%;
+}
+.nextdowndiv{
+   padding-top: 50px;
+}
+
+/* OTHER PAGES */
+.page-title{
+   float: left; 
+   width: auto; 
+   padding-left: 20px; 
+   padding-right: 50px;
+   margin-top: -250px;
+   background-color: white;
+}
+
+/* HOME PAGE */
+
+.postdate{
+   margin: 10px 0px;
+   margin-bottom: 5px;
+}
+.postmonth{
+   margin: 0px;
+}
+
+.social-circles{
+   width: 200px;
+   height: 200px;
+   border-radius: 100%;
+   border: 1px solid black;
+   text-align: center;
+}
+.social-circles h3{
+   position: absolute;
+   top: 30%;
+   left: 12.5%;
+}
+
+
+/* FOOTER */
+.footer-content{
+   padding-top: 20px;
+   text-align: center;
+}
+.footer-logo-container{
+  width: 50px;
+  height: 50px; 
+}
+.footer-logo-container img{
+   height: 50px;
+}
